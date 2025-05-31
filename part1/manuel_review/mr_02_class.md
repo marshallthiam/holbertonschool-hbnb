@@ -57,4 +57,8 @@ Amenity --|> BaseModel
 %% RELATIONSHIPS
 User "1" --> "0..*" Place : owns >
 User "1" --> "0..*" Review : writes >
-Place "1" --> "0..*" Review : receives > Place "1" --> "0..*" Amenity : has > Review "1" --> "1" User : written by > Review "1" --> "1" Place : about > Amenity "*" --> "*" Place : available in >
+Place "1" --> "0..*" Review : receives >
+Place "1" --> "0..*" Amenity : has >
+Review "1" --> "1" User : written by >
+Review "1" --> "1" Place : about >
+Amenity "*" --> "*" Place : available in >
