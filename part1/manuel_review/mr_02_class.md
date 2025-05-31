@@ -1,4 +1,3 @@
-
 # HBnB Business Logic Class Diagram
 
 ```mermaid
